@@ -138,7 +138,7 @@ RUN echo "Instalando patch de idiomas, cdr e bilhetagem..." \
 COPY elastixneo /var/www/html/themes/
 
 # Se Voce tiver Problemas com o Modulo Call Center, me avise.
-COPY admin /var/www/html/admin 
+#COPY admin /var/www/html/admin 
 
 RUN chown -R asterisk.asterisk /var/www/db \
     && chown -R mysql:mysql /var/lib/mysql
