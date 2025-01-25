@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Renato Siqueira <renatoelysiqueira@gmail.com>
+#MAINTAINER Renato Siqueira <renatoelysiqueira@gmail.com>
 
 # Fixes issue with running systemD inside docker builds 
 # From https://github.com/gdraheim/docker-systemctl-replacement
